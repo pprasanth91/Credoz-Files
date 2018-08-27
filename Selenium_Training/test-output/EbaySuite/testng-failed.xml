@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [EbaySuite]">
+  <listeners>
+    <listener class-name="selenium.com.day10.ISuitListener_Listener"/>
+    <listener class-name="selenium.com.day10.ITestListener_Listener"/>
+  </listeners>
+  <test thread-count="5" name="EbayTest(failed)">
+    <classes>
+      <class name="selenium.com.day10.Ebay_TestNG_ITestListener_XML_Class">
+        <methods>
+          <include name="getPageInfo"/>
+          <include name="browserInvoke"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- selenium.com.day10.Ebay_TestNG_ITestListener_XML_Class -->
+    </classes>
+  </test> <!-- EbayTest(failed) -->
+</suite> <!-- Failed suite [EbaySuite] -->

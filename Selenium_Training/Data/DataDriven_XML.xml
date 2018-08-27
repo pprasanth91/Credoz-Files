@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<TestData>
+<mailserver-name>
+<service>http://www.gmail.com</service>
+<service>http://www.yahoo.com</service>
+</mailserver-name>
+<user-details>
+<email-id>bijoy.meethal@gmail.com</email-id>
+<password>1676</password>
+<folder>inbox</folder>
+</user-details>
+</TestData>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test" parallel="tests">
+  <parameter name="Browser" value="2"></parameter>
+  <parameter name="phone" value="iPhone 7"></parameter>
+  <parameter name="cat" value="Mobile Phones"></parameter>
+    <classes>
+      <class name="selenium.com.day8.Ebay_TestNG_Parameter_Parallel"/>
+    </classes>
+    </test>
+    
+    
+    <test thread-count="5" name="Test1">
+  <parameter name="Browser" value="1"></parameter>
+  <parameter name="phone" value="Nokia"></parameter>
+  <parameter name="cat" value="Mobile Phones"></parameter>
+    <classes>
+      <class name="selenium.com.day8.Ebay_TestNG_Parameter_Parallel"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

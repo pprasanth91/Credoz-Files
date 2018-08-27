@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EbaySuite">
+<listeners>
+<listener class-name="selenium.com.day10.ISuitListener_Listener"></listener>
+<listener class-name="selenium.com.day10.ITestListener_Listener"></listener>
+</listeners>
+  <test name="EbayTest">
+    <classes>
+      <class name="selenium.com.day10.Ebay_TestNG_ITestListener_XML_Class"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
